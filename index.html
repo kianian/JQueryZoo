@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src = "script.js"></script>
+    <title>New Zoo</title>
+</head>
+<body>
+    <h1>Welcome to this Zoo</h1>
+    <div id="setup">
+    <br><br><br>
+        <h2>Type Of Animal:</h2><br>
+<select id="animalChoice">
+    <option value="0">Tiger</option>
+    <option value="1">Bear</option>
+    <option value="2">Giraffe</option>
+    <option value="3">Unicorn</option>
+    <option value="4">Bee</option>
+</select>
+<h2>Name:</h2><input type="text" id="name">
+<button class="btn btn-primary"id="addAnimal">Add Animal</button>
+    </div>
+    <h3>Click any of the created animals to remove them</h3><br><br>
+    <select id="foodChoice">
+        <option value="0">--Select--</option>
+        <option value="1">Sushi</option>
+        <option value="2">Hamburger</option>
+        <option value="3">Jasper</option>
+        <option value="4">Leaves</option>
+        <option value="5">Luke's Toenails</option>
+        <option value="6">Honey</option>
+        <option value="7">Small Children</option>
+        <option value="8">PorterHouse Steak</option>
+        <option value="9">Snails</option>
+    </select>
+    <br><br><br><br>
+    <div id='animals'></div>
+    <div id="table"></div>
+    <div id="feed"></div>
+</body>
+</html>
